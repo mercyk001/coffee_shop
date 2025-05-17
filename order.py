@@ -55,4 +55,18 @@ class Order:
         
     @classmethod #give access to all orders
     def all(cls):
-        return cls._all        
+        return cls._all
+ 
+ 
+'''
+ #ouput
+ 
+alice = Customer("Alice")
+latte = Coffee("Latte")
+
+order1 = Order(alice, latte, 5.0) 
+
+print(alice.orders())
+print(latte.customers())
+print(latte.num_orders())        
+'''
