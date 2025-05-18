@@ -15,7 +15,7 @@ class Coffee:
         if isinstance(value, str) and len (value) >= 3: 
             self._name = value
         else:
-            raise ValueError("Nmae must be string with at least 3 characters.")
+            raise ValueError("Name must be string with at least 3 characters.")
         
         
     def orders(self):
@@ -29,7 +29,7 @@ class Coffee:
     
     
     def average_price(self):
-        orders = self.order()
+        orders = self.orders()
         if orders:
             return sum(order.price for order in orders) /len(orders)
         return 0.0
