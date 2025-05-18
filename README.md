@@ -33,6 +33,11 @@ No external libraries required
 - Customer names: 1–15 characters.
 - Coffee names: at least 3 characters.
 
+
+## Running the Code
+
+Run python debug.py in th terminal
+
 ## License
 
 MIT
