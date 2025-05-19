@@ -2,7 +2,7 @@ from customer import Customer
 from coffee import Coffee
 from order import Order
 
-# Create customers
+# customers
 alice = Customer("Alice")
 bob = Customer("Bob")
 mercy = Customer("Mercy")
@@ -10,7 +10,7 @@ bena = Customer("Bena")
 
 
 
-# Create coffee types
+# coffee types
 latte = Coffee("Latte")
 espresso = Coffee("Espresso")
 cappucino = Coffee("Cappuccino")
